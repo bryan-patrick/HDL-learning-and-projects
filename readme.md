@@ -15,6 +15,12 @@ iverilog -o and_gate_test and_gate.v and_gate_tb.v
 vvp and_gate_test
 ```
 
+## Linting
+
+VSCode is using iverilog.
+
+The line needs to be in settings.json: `	"verilog.linting.linter": "iverilog",`
+
 ## TODO
 
 - Lots of exercises

@@ -1,0 +1,5 @@
+a=0 b=0 y=0
+a=1 b=1 y=1
+a=0 b=1 y=1
+a=1 b=0 y=1
+or_gate_tb.v:36: $finish called at 40 (1s)

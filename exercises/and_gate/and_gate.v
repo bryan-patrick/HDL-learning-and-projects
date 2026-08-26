@@ -12,11 +12,11 @@ a ──┐
 b ──┘
 */
 
-module AND_gate(
+module and_gate(
   input a,
   input b,
   output y
-)
+);
 
 assign y = a & b;
 

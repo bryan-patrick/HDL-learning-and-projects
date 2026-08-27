@@ -14,4 +14,4 @@ module gate_xor(
 
 assign y = a ^ b;
 
-endmodule;
+endmodule

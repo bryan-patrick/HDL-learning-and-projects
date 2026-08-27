@@ -15,4 +15,4 @@ module gate_xnor(
 
 assign y = ~(a ^ b);
 
-endmodule;
+endmodule

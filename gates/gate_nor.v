@@ -12,4 +12,4 @@ module gate_nor(
 
 assign y = ~(a | b);
 
-endmodule;
+endmodule

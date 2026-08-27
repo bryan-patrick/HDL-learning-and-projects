@@ -5,3 +5,7 @@ test-gates:
 test-mux-2-to-1:
 	iverilog -o executables/mux_2_to_1 testbench/mux_2_to_1_tb.v
 	vvp executables/mux_2_to_1 > outputs/output__mux_2_to_1_tb.txt
+
+test-mux-4-to-1:
+	iverilog -o executables/mux_4_to_1 testbench/mux_4_to_1_tb.v
+	vvp executables/mux_4_to_1 > outputs/output__mux_4_to_1_tb.txt

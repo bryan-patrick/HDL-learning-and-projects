@@ -21,20 +21,20 @@ b ─────┘
 module adder_half(
   input a,
   input b,
-  output sum,
-  output carry
-);
-
-gate_xor sum_gate_xor(
-  .a(a),
-  .b(b),
-  .y(sum)
+  output carry,
+  output sum
 );
 
 gate_and sum_gate_and(
   .a(a),
   .b(b),
   .y(carry)
+);
+
+gate_xor sum_gate_xor(
+  .a(a),
+  .b(b),
+  .y(sum)
 );
 
 endmodule

@@ -13,3 +13,7 @@ test-mux-4-to-1:
 test-adder-half:
 	iverilog -o executables/adder_half testbench/adder_half_tb.v
 	vvp executables/adder_half > outputs/output__adder_half.txt
+
+test-adder-full:
+	iverilog -o executables/adder_full testbench/adder_full_tb.v
+	vvp executables/adder_full > outputs/output__adder_full.txt

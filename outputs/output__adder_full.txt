@@ -1,0 +1,12 @@
+Testing Full Adder Table
+
+a=0 b=0 carry_in=0 carry_out=0 sum=0 result=00
+a=0 b=0 carry_in=1 carry_out=0 sum=1 result=01
+a=0 b=1 carry_in=0 carry_out=0 sum=1 result=01
+a=0 b=1 carry_in=1 carry_out=1 sum=0 result=10
+a=1 b=0 carry_in=0 carry_out=0 sum=1 result=01
+a=1 b=0 carry_in=1 carry_out=1 sum=0 result=10
+a=1 b=1 carry_in=0 carry_out=1 sum=0 result=10
+a=1 b=1 carry_in=1 carry_out=1 sum=1 result=11
+
+testbench/adder_full_tb.v:71: $finish called at 80 (1s)

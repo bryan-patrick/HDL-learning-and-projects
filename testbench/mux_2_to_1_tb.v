@@ -15,12 +15,13 @@ mux_2_to_1 test_mux_2_to_1(
 );
 
 initial begin
-  a = 0;
-  b = 0;
-  sel = 0;
-
+  $display("Testing mux_2_to_1\n");
   $monitor("a=%b b=%b SEL=%b y=%b", a, b, sel, y);
 
+  a = 0;
+  b = 0;
+  sel = 0;
+
   #10
 
   a = 1;
@@ -65,6 +66,7 @@ initial begin
 
   #10
 
+  $display();
   $finish;
 end
 

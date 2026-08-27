@@ -7,119 +7,121 @@
 :vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_textio.vpi";
 :vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2005_math.vpi";
 :vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/va_math.vpi";
-S_0x1035e0a80 .scope module, "mux_2_to_1_tb" "mux_2_to_1_tb" 2 3;
+S_0x102d303d0 .scope module, "mux_2_to_1_tb" "mux_2_to_1_tb" 2 3;
  .timescale 0 0;
-v0xb4b4485a0_0 .var "a", 0 0;
-v0xb4b448640_0 .var "b", 0 0;
-v0xb4b4486e0_0 .var "sel", 0 0;
-v0xb4b448780_0 .net "y", 0 0, L_0xb4ac447e0;  1 drivers
-S_0x1035e0c00 .scope module, "test_mux_2_to_1" "mux_2_to_1" 2 10, 3 16 0, S_0x1035e0a80;
+v0x98d4485a0_0 .var "a", 0 0;
+v0x98d448640_0 .var "b", 0 0;
+v0x98d4486e0_0 .var "sel", 0 0;
+v0x98d448780_0 .net "y", 0 0, L_0x98cc44690;  1 drivers
+S_0x102d30550 .scope module, "test_mux_2_to_1" "mux_2_to_1" 2 10, 3 16 0, S_0x102d303d0;
  .timescale 0 0;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /INPUT 1 "b";
     .port_info 2 /INPUT 1 "sel";
     .port_info 3 /OUTPUT 1 "y";
-v0xb4b448140_0 .net "a", 0 0, v0xb4b4485a0_0;  1 drivers
-v0xb4b4481e0_0 .net "a_signal", 0 0, L_0xb4ac44700;  1 drivers
-v0xb4b448280_0 .net "b", 0 0, v0xb4b448640_0;  1 drivers
-v0xb4b448320_0 .net "b_signal", 0 0, L_0xb4ac44770;  1 drivers
-v0xb4b4483c0_0 .net "not_sel", 0 0, L_0xb4ac44690;  1 drivers
-v0xb4b448460_0 .net "sel", 0 0, v0xb4b4486e0_0;  1 drivers
-v0xb4b448500_0 .net "y", 0 0, L_0xb4ac447e0;  alias, 1 drivers
-S_0x1035def10 .scope module, "a_path_gate" "gate_and" 3 32, 4 9 0, S_0x1035e0c00;
+v0x98d448140_0 .net "a", 0 0, v0x98d4485a0_0;  1 drivers
+v0x98d4481e0_0 .net "a_signal", 0 0, L_0x98cc445b0;  1 drivers
+v0x98d448280_0 .net "b", 0 0, v0x98d448640_0;  1 drivers
+v0x98d448320_0 .net "b_signal", 0 0, L_0x98cc44620;  1 drivers
+v0x98d4483c0_0 .net "not_sel", 0 0, L_0x98cc44540;  1 drivers
+v0x98d448460_0 .net "sel", 0 0, v0x98d4486e0_0;  1 drivers
+v0x98d448500_0 .net "y", 0 0, L_0x98cc44690;  alias, 1 drivers
+S_0x102d2ef50 .scope module, "a_path_gate" "gate_and" 3 32, 4 9 0, S_0x102d30550;
  .timescale 0 0;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /INPUT 1 "b";
     .port_info 2 /OUTPUT 1 "y";
-L_0xb4ac44700 .functor AND 1, v0xb4b4485a0_0, L_0xb4ac44690, C4<1>, C4<1>;
-v0x1035e4870_0 .net "a", 0 0, v0xb4b4485a0_0;  alias, 1 drivers
-v0x1035df090_0 .net "b", 0 0, L_0xb4ac44690;  alias, 1 drivers
-v0x1035df130_0 .net "y", 0 0, L_0xb4ac44700;  alias, 1 drivers
-S_0x1035de2d0 .scope module, "b_path_gate" "gate_and" 3 38, 4 9 0, S_0x1035e0c00;
+L_0x98cc445b0 .functor AND 1, v0x98d4485a0_0, L_0x98cc44540, C4<1>, C4<1>;
+v0x102d2f0d0_0 .net "a", 0 0, v0x98d4485a0_0;  alias, 1 drivers
+v0x102d2f170_0 .net "b", 0 0, L_0x98cc44540;  alias, 1 drivers
+v0x102d2e2f0_0 .net "y", 0 0, L_0x98cc445b0;  alias, 1 drivers
+S_0x102d2e390 .scope module, "b_path_gate" "gate_and" 3 38, 4 9 0, S_0x102d30550;
  .timescale 0 0;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /INPUT 1 "b";
     .port_info 2 /OUTPUT 1 "y";
-L_0xb4ac44770 .functor AND 1, v0xb4b448640_0, v0xb4b4486e0_0, C4<1>, C4<1>;
-v0x1035de450_0 .net "a", 0 0, v0xb4b448640_0;  alias, 1 drivers
-v0x1035de4f0_0 .net "b", 0 0, v0xb4b4486e0_0;  alias, 1 drivers
-v0x1035dcbd0_0 .net "y", 0 0, L_0xb4ac44770;  alias, 1 drivers
-S_0x1035dcc70 .scope module, "invert_sel" "gate_not" 3 27, 5 10 0, S_0x1035e0c00;
+L_0x98cc44620 .functor AND 1, v0x98d448640_0, v0x98d4486e0_0, C4<1>, C4<1>;
+v0x102d2e510_0 .net "a", 0 0, v0x98d448640_0;  alias, 1 drivers
+v0x102d2cbd0_0 .net "b", 0 0, v0x98d4486e0_0;  alias, 1 drivers
+v0x102d2cc70_0 .net "y", 0 0, L_0x98cc44620;  alias, 1 drivers
+S_0x102d2cd10 .scope module, "invert_sel" "gate_not" 3 27, 5 10 0, S_0x102d30550;
  .timescale 0 0;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /OUTPUT 1 "y";
-L_0xb4ac44690 .functor NOT 1, v0xb4b4486e0_0, C4<0>, C4<0>, C4<0>;
-v0x1035dcdf0_0 .net "a", 0 0, v0xb4b4486e0_0;  alias, 1 drivers
-v0x1035dd610_0 .net "y", 0 0, L_0xb4ac44690;  alias, 1 drivers
-S_0x1035dd6b0 .scope module, "output_gate" "gate_or" 3 44, 6 10 0, S_0x1035e0c00;
+L_0x98cc44540 .functor NOT 1, v0x98d4486e0_0, C4<0>, C4<0>, C4<0>;
+v0x102d2d610_0 .net "a", 0 0, v0x98d4486e0_0;  alias, 1 drivers
+v0x102d2d6b0_0 .net "y", 0 0, L_0x98cc44540;  alias, 1 drivers
+S_0x102d2d750 .scope module, "output_gate" "gate_or" 3 44, 6 10 0, S_0x102d30550;
  .timescale 0 0;
     .port_info 0 /INPUT 1 "a";
     .port_info 1 /INPUT 1 "b";
     .port_info 2 /OUTPUT 1 "y";
-L_0xb4ac447e0 .functor OR 1, L_0xb4ac44700, L_0xb4ac44770, C4<0>, C4<0>;
-v0x1035dd830_0 .net "a", 0 0, L_0xb4ac44700;  alias, 1 drivers
-v0xb4b448000_0 .net "b", 0 0, L_0xb4ac44770;  alias, 1 drivers
-v0xb4b4480a0_0 .net "y", 0 0, L_0xb4ac447e0;  alias, 1 drivers
-    .scope S_0x1035e0a80;
+L_0x98cc44690 .functor OR 1, L_0x98cc445b0, L_0x98cc44620, C4<0>, C4<0>;
+v0x102d36420_0 .net "a", 0 0, L_0x98cc445b0;  alias, 1 drivers
+v0x98d448000_0 .net "b", 0 0, L_0x98cc44620;  alias, 1 drivers
+v0x98d4480a0_0 .net "y", 0 0, L_0x98cc44690;  alias, 1 drivers
+    .scope S_0x102d303d0;
 T_0 ;
+    %vpi_call 2 18 "$display", "Testing mux_2_to_1\012" {0 0 0};
+    %vpi_call 2 19 "$monitor", "a=%b b=%b SEL=%b y=%b", v0x98d4485a0_0, v0x98d448640_0, v0x98d4486e0_0, v0x98d448780_0 {0 0 0};
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
-    %vpi_call 2 22 "$monitor", "a=%b b=%b SEL=%b y=%b", v0xb4b4485a0_0, v0xb4b448640_0, v0xb4b4486e0_0, v0xb4b448780_0 {0 0 0};
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 0, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4485a0_0, 0, 1;
+    %store/vec4 v0x98d4485a0_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b448640_0, 0, 1;
+    %store/vec4 v0x98d448640_0, 0, 1;
     %pushi/vec4 1, 0, 1;
-    %store/vec4 v0xb4b4486e0_0, 0, 1;
+    %store/vec4 v0x98d4486e0_0, 0, 1;
     %delay 10, 0;
-    %vpi_call 2 68 "$finish" {0 0 0};
+    %vpi_call 2 69 "$display" {0 0 0};
+    %vpi_call 2 70 "$finish" {0 0 0};
     %end;
     .thread T_0;
 # The file index is used to find the file name in the following table.

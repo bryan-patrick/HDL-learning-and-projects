@@ -7,7 +7,7 @@ a ─────┐
 b ─────┘
 */
 
-module or_gate(
+module gate_or(
   input a,
   input b,
   output y

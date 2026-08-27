@@ -6,4 +6,4 @@ module gate_nand(
 
 assign y = ~(a & b);
 
-endmodule;
+endmodule

@@ -55,22 +55,22 @@ initial begin
   sel_0 = 0;
   sel_1 = 0;
 
-  #10
+  #10;
 
   sel_0 = 1;
   sel_1 = 0;
 
-  #10
+  #10;
 
   sel_0 = 0;
   sel_1 = 1;
 
-  #10
+  #10;
 
   sel_0 = 1;
   sel_1 = 1;
 
-  #10
+  #10;
 
   $display();
   $finish;

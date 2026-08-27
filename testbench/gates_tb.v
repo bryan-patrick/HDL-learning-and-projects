@@ -61,11 +61,12 @@ gate_xor my_xor_gate(
 );
 
 initial begin
-  a = 0;
-  b = 0;
-
+  $display("Testing Gates Table\n");
   $monitor("a=%b b=%b AND=%b NAND=%b NOR=%b NOT=%b OR=%b XNOR=%b XOR=%b", a, b, y_and, y_nand, y_nor, y_not, y_or, y_xnor, y_xor);
 
+  a = 0;
+  b = 0;
+
   #10
 
   a = 1;
@@ -83,6 +84,7 @@ initial begin
 
   #10
 
+  $display();
   $finish;
 end
 

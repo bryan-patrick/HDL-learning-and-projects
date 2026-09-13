@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="152" version="1.1" viewBox="0 0 380 152" width="380">
+   <path d="M52,135 H152 V115 H192" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M162,35 V75 H192" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M302,115 H312" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M242,35 H312" fill="none" stroke="#006400" stroke-linecap="square" stroke-width="3"/>
+   <path d="M62,15 V75 H92" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M72,55 V115 H92" fill="none" stroke="#006400" stroke-linecap="square" stroke-width="3"/>
+   <circle cx="62" cy="15" fill="#00D200" r="5" stroke="none" stroke-width="3"/>
+   <circle cx="152" cy="115" fill="#00D200" r="5" stroke="none" stroke-width="3"/>
+   <circle cx="72" cy="55" fill="#006400" r="5" stroke="none" stroke-width="3"/>
+   <circle cx="162" cy="35" fill="#00D200" r="5" stroke="none" stroke-width="3"/>
+   <path d="M117,120 A25,25 90 0,0 117,70" fill="none" stroke="#000000" stroke-width="2"/>
+   <path d="M117,70 H93 V120 H117" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <circle cx="142" cy="95" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="92" cy="75" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="92" cy="115" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <path d="M217,120 A25,25 90 0,0 217,70" fill="none" stroke="#000000" stroke-width="2"/>
+   <path d="M217,70 H193 V120 H217" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <circle cx="242" cy="95" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="192" cy="75" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="192" cy="115" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <path d="M142,35 H162 V15 H184" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M152,115 V55 H184" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M242,35 Q222,10 192,10 Q205,35 192,60 Q222,60 242,35 Z" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <path d="M182,10 Q195,35 182,60" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <circle cx="242" cy="35" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="182" cy="15" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="182" cy="55" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <path d="M242,95 H252" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M142,95 H162 V135 H254" fill="none" stroke="#006400" stroke-linecap="square" stroke-width="3"/>
+   <path d="M302,115 Q282,90 252,90 Q265,115 252,140 Q282,140 302,115 Z" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <circle cx="302" cy="115" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="252" cy="95" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="252" cy="135" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="323" cy="116" fill="none" r="9" stroke="#000000" stroke-width="2"/>
+   <text fill="#000000" font-family="monospace" font-size="12" x="319" y="120">1</text>
+   <text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" x="334" y="123">carry</text>
+   <circle cx="312" cy="115" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="323" cy="36" fill="none" r="9" stroke="#000000" stroke-width="2"/>
+   <text fill="#000000" font-family="monospace" font-size="12" x="319" y="40">0</text>
+   <text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" x="334" y="43">sum</text>
+   <circle cx="312" cy="35" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <rect fill="none" height="18" stroke="#000000" stroke-linecap="square" stroke-width="2" width="18" x="34" y="127"/>
+   <ellipse cx="42" cy="135" fill="#00D200" rx="5.5" ry="6.5" stroke="none" stroke-width="2"/>
+   <text fill="#FFFFFF" font-family="monospace" font-size="12" x="39" y="140">1</text>
+   <text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" x="5" y="143">cin</text>
+   <circle cx="52" cy="135" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <rect fill="none" height="18" stroke="#000000" stroke-linecap="square" stroke-width="2" width="18" x="34" y="47"/>
+   <ellipse cx="42" cy="55" fill="#006400" rx="5.5" ry="6.5" stroke="none" stroke-width="2"/>
+   <text fill="#FFFFFF" font-family="monospace" font-size="12" x="39" y="60">0</text>
+   <text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" x="19" y="63">b</text>
+   <circle cx="52" cy="55" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <path d="M52,15 H84" fill="none" stroke="#00D200" stroke-linecap="square" stroke-width="3"/>
+   <path d="M52,55 H84" fill="none" stroke="#006400" stroke-linecap="square" stroke-width="3"/>
+   <path d="M142,35 Q122,10 92,10 Q105,35 92,60 Q122,60 142,35 Z" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <path d="M82,10 Q95,35 82,60" fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2"/>
+   <circle cx="142" cy="35" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="82" cy="15" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+   <circle cx="82" cy="55" fill="#006400" r="2" stroke="none" stroke-width="2"/>
+   <rect fill="none" height="18" stroke="#000000" stroke-linecap="square" stroke-width="2" width="18" x="34" y="7"/>
+   <ellipse cx="42" cy="15" fill="#00D200" rx="5.5" ry="6.5" stroke="none" stroke-width="2"/>
+   <text fill="#FFFFFF" font-family="monospace" font-size="12" x="39" y="20">1</text>
+   <text fill="#0000FF" font-family="sans-serif" font-size="16" font-weight="bold" x="21" y="23">a</text>
+   <circle cx="52" cy="15" fill="#00D200" r="2" stroke="none" stroke-width="2"/>
+</svg>
